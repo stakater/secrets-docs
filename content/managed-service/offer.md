@@ -11,7 +11,7 @@ Stakater provides a fully configured and optimized Vault cluster. Stakater autom
 
 ## Secure by design
 
-Stakater Vault will run in a _private_ cloud in your region of preference. Both cloud provider partners and Stakater are committed to ISO 27001. All traffic is always end-to-end TLS encrypted in transit to Vault. Vault data on the host is encrypted and cannot be accessed even if the host was compromised. Vault replicas are run in a completely isolated inaccessible environment. Vault will be set up as a single tenancy: Vault pods will not share a node with non-Vault pods. Policies can optionally be used to define under what conditions entities get access to secrets. Stakater will help set up such policies for different roles. Control groups can further be used to provide approval workflows. All plans include Auto-Unseal features. During initialization, the root token will be revoked after recovery keys have been distributed among key-holders and the authentication backend has been configured and validated. An operator along with a quorum of key holders can re-generate the root token in case of emergency.
+Stakater Vault will run in a _private_ cloud in your region of preference. Both cloud provider partners and Stakater are committed to ISO 27001. All traffic is always end-to-end TLS encrypted in transit to Vault. Vault data on the host is encrypted and cannot be accessed even if the host was compromised. Vault replicas are run in a completely isolated inaccessible environment. Vault will be set up as a single tenancy: Vault pods will not share a node with non-Vault pods. Policies can optionally be used to define under what conditions entities get access to secrets. Stakater will help set up such policies for different roles. Control groups can further be used to provide approval workflows. All plans include Auto-Unseal features. During initialization, the root token will be revoked after recovery keys have been distributed among key-holders and the authentication backend has been configured and validated. An operator along with a quorum of keyholders can re-generate the root token in case of emergency.
 
 ## Reduce cost and save time
 
@@ -19,7 +19,7 @@ Optimize your operations time while reducing costs. All plans include 100% free 
 
 ## Backup and restore
 
-Reduced risk of losing data with automated backups stored in a cloud file storage so they are always accessible to you. Restore your data at any point of time.
+Reduced risk of losing data with automated backups stored in a cloud file storage, so they are always accessible to you. Restore your data at any point of time.
 
 ## High availability
 
