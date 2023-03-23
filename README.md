@@ -1,1 +1,1 @@
-# secrets-docs
+# Stakater Secrets Management
