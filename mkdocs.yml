@@ -1,6 +1,6 @@
 site_name: Stakater Secrets Management
 docs_dir: content
-site_url: https://docs.stakater.com/secrets
+site_url: https://docs.stakater.com/
 repo_url: https://github.com/stakater/secrets-docs
 edit_uri: blob/main/content/
 use_directory_urls: false
