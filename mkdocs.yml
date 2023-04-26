@@ -43,7 +43,6 @@ nav:
     - Secrets Management:
         - index.md
         - introduction.md
-        - sealed-secrets.md
         - vault.md
         - Secrets Management as a Service:
             - managed-service/offer.md
@@ -52,6 +51,7 @@ nav:
             - external-secret-operator/introduction.md
             - external-secret-operator/getting-started.md
             - external-secret-operator/workflow.md
+        - managed-services-secrets.md
     - Stakater Home: https://www.stakater.com/
     - SAAP: https://www.stakater.com/saap-kubernetes-openshift
     - Consultancy: https://www.stakater.com/kubernetes-consultancy
