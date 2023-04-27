@@ -16,7 +16,7 @@ Secret Store `tenant-vault-secret-store` is already created in each namespace by
 
 ### Step 3
 
-Service account `tenant-vault-access` being referred by `SecretStore` is already created by Multi Tenant Operator templates. This service account has the `stakater.com/vault-access: 'true'` label, which is used to bound it with the Vault `role` by Multi Tenant Operator. To learn how Multi Tenant Operator authenticates with Vault, see [Vault Multitenancy](https://docs.stakater.com/mto/vault-multitenancy.html).
+Service account `tenant-vault-access` being referred by `SecretStore` is already created by Multi Tenant Operator templates. This service account has the `stakater.com/vault-access: 'true'` label, which is used to bound it with the Vault `role` by Multi Tenant Operator. To learn how Multi Tenant Operator authenticates with Vault, see [Vault Multitenancy](https://docs.stakater.com/mto/main/vault-multitenancy.html).
 
 ### Step 4
 

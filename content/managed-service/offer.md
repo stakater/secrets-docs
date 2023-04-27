@@ -31,7 +31,7 @@ Vault's audit logs and metrics will be available. Logs will be written to a sepa
 
 ## Namespace multi-tenancy
 
-[Stakater Multi Tenant Operator](https://docs.stakater.com/mto/index.html) not only provides strong multi-tenancy, but also automatically manages RBAC for tenant secrets through tenant paths and policies.
+[Stakater Multi Tenant Operator](https://docs.stakater.com/mto/main/index.html) not only provides strong multi-tenancy, but also automatically manages RBAC for tenant secrets through tenant paths and policies.
 
 ## Kubernetes integration
 
