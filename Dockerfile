@@ -2,7 +2,7 @@ FROM python:3.11-alpine as builder
 
 RUN pip3 install mkdocs-material mkdocs-mermaid2-plugin
 
-# set workdir
+# set workdirs
 RUN mkdir -p $HOME/application
 WORKDIR $HOME/application
 
