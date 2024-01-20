@@ -76,7 +76,7 @@ To use the Vault CLI, a token is required. Users can get/renew/revoke a token fr
 
 1. Once a token is fetched, users can use the terminal provided by the UI, so there is no need to install the Vault CLI:
 
-    ![Vault-cli](./images/vault_cli.png)
+    ![Vault-CLI](./images/vault_cli.png)
 
 1. If using the Vault CLI, login with the token:
 

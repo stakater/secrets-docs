@@ -48,8 +48,8 @@ Lets create a sample k8s secret that will be used for MySQL:
 
     where:
 
-    * `SECRET_FILE`: the name of the yaml file containing the k8s secret
-    * `SEALED_SECRET`: the name of the yaml file that will contain the sealed secret
+    * `SECRET_FILE`: the name of the YAML file containing the k8s secret
+    * `SEALED_SECRET`: the name of the YAML file that will contain the sealed secret
 
 1. Add and commit this sealed secret to source control
 
