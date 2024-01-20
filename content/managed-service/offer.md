@@ -39,4 +39,4 @@ Stakater platform supports three different ways to consume secrets from Vault: v
 
 ## Requirements
 
-Direct SSH access between client cloud and Stakater Vault cloud will be needed, preferably via site-to-site vpn.
+Direct SSH access between client cloud and Stakater Vault cloud will be needed, preferably via site-to-site VPN.
