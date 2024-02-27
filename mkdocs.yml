@@ -1,12 +1,11 @@
 site_name: Stakater Secrets Management
 docs_dir: content
-site_url: https://docs.stakater.com/
+site_url: https://docs.stakater.com/secrets/
 repo_url: https://github.com/stakater/secrets-docs
 edit_uri: blob/main/content/
 use_directory_urls: false
 theme:
     name: material
-    prev_next_buttons_location: none
     logo: assets/images/favicon.svg
     favicon: assets/images/favicon.svg
     custom_dir: custom_theme/
@@ -18,11 +17,15 @@ theme:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra:
     analytics:
@@ -60,4 +63,3 @@ nav:
     - Careers: https://www.stakater.com/careers
 plugins:
     - search
-    - mermaid2
