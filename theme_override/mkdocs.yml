@@ -7,7 +7,6 @@ use_directory_urls: false
 theme:
   logo: assets/images/favicon.svg
   favicon: assets/images/favicon.svg
-  custom_dir: dist/_theme
 nav:
   - Secrets Management:
       - index.md
