@@ -1,0 +1,22 @@
+site_name: Stakater Secrets Management
+docs_dir: content
+site_url: https://docs.stakater.com/secrets/
+repo_url: https://github.com/stakater/secrets-docs
+edit_uri: blob/main/content/
+use_directory_urls: false
+theme:
+  logo: assets/images/favicon.svg
+  favicon: assets/images/favicon.svg
+nav:
+  - Secrets Management:
+      - index.md
+      - introduction.md
+      - sealed-secrets.md
+      - vault.md
+      - Secrets Management as a Service:
+          - managed-service/offer.md
+          - managed-service/cluster_config.md
+      - External Secret Operator:
+          - external-secret-operator/introduction.md
+          - external-secret-operator/getting-started.md
+          - external-secret-operator/workflow.md
